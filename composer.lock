@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ccdad5f0d375cf7b56f1533f65a47388",
+    "content-hash": "3e6a214bb6ab41f3a9dc1463c32552c4",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -2048,6 +2048,24 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/guardian/"
+        },
+        {
+            "name": "wpackagist-theme/zenzero",
+            "version": "1.6.7",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/zenzero/",
+                "reference": "1.6.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/zenzero.1.6.7.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/zenzero/"
         }
     ],
     "packages-dev": [
