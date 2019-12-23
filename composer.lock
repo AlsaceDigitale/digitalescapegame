@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8aed1d18a7dc45a0a2e54d9754d0b8ca",
+    "content-hash": "1253c0f9ac25da1659b35f05db7a4f31",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -2084,6 +2084,42 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/guardian/"
+        },
+        {
+            "name": "wpackagist-theme/hestia",
+            "version": "2.5.6",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/hestia/",
+                "reference": "2.5.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/hestia.2.5.6.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/hestia/"
+        },
+        {
+            "name": "wpackagist-theme/rocked",
+            "version": "1.11",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/rocked/",
+                "reference": "1.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/rocked.1.11.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/rocked/"
         },
         {
             "name": "wpackagist-theme/zenzero",
