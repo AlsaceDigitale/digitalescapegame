@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f42ed51e0bb5cf5c3b0979dd65e0094c",
+    "content-hash": "ccdad5f0d375cf7b56f1533f65a47388",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -2030,6 +2030,24 @@
             },
             "type": "wordpress-theme",
             "homepage": "https://wordpress.org/themes/arilewp/"
+        },
+        {
+            "name": "wpackagist-theme/guardian",
+            "version": "4.3.5",
+            "source": {
+                "type": "svn",
+                "url": "https://themes.svn.wordpress.org/guardian/",
+                "reference": "4.3.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/guardian.4.3.5.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/guardian/"
         }
     ],
     "packages-dev": [
