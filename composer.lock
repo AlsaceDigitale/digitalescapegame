@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "17dce70c3af03358291c7bd90fe46f3c",
+    "content-hash": "b0387682f5d79a810b5b2833b5082812",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -2066,6 +2066,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/events-manager/"
+        },
+        {
+            "name": "wpackagist-plugin/post-or-page-hide-title",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/post-or-page-hide-title/",
+                "reference": "tags/1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-or-page-hide-title.1.0.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/post-or-page-hide-title/"
         },
         {
             "name": "wpackagist-plugin/simple-custom-css",
