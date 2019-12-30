@@ -53,7 +53,8 @@
     "wpackagist-theme/rocked": "^1.11",
     "wpackagist-plugin/unique-headers": "^1.7",
     "wpackagist-plugin/wpforms-lite": "^1.5",
-    "wpackagist-plugin/themeisle-companion": "^2.8"
+    "wpackagist-plugin/themeisle-companion": "^2.8",
+    "wpackagist-plugin/events-manager": "5.9.7.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.4.2",
