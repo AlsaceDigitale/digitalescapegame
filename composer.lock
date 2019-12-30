@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ab1503745d50b3e59eb5e773958bf454",
+    "content-hash": "17dce70c3af03358291c7bd90fe46f3c",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -2066,6 +2066,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/events-manager/"
+        },
+        {
+            "name": "wpackagist-plugin/simple-custom-css",
+            "version": "4.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/simple-custom-css/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/simple-custom-css.zip?timestamp=1571931333"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/simple-custom-css/"
         },
         {
             "name": "wpackagist-plugin/themeisle-companion",
